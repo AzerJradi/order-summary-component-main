@@ -1,0 +1,104 @@
+body{
+    background-color: #005792;
+    background-size: cover; /* This will make the image cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; 
+}
+.all {
+    background-color: white;
+    display:flex;
+    border-radius: 12px;
+    position: relative;
+    margin: 50px 30%  ;
+    flex-direction: column;
+    padding-bottom:500px;
+    text-align: center;
+    height: 300px;
+}
+img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 100%;
+    height: 250px;
+}
+.titre{
+    font-size: 30px;
+    font-family: arial black;
+}
+.description{
+    color: grey;
+    padding: 0 100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.annualPlan{
+    background-color: #e3f6f5;
+    margin: 0 40px 20px 40px;
+    flex-direction: column;
+    border-radius: 8px;
+    padding-bottom: -58px;
+}
+.img{
+    width: 50px; 
+    height: 50px;
+    margin-right: 300px;
+    margin-top: 5px;
+    position: relative;
+    top: 40px;
+    right: 20px;
+
+}
+.prices{
+    flex-direction: column;
+    margin-top: -70px;
+    margin-left:-150px ;
+    position: relative;
+    top: 20px;
+    right: 10px;
+    font-size: 20px;
+}
+.change{
+    text-decoration:underline solid 1px;
+    background-color: transparent;
+    border: none;
+    color: blue;
+    display: flex;
+    margin-left: 80%;
+    position: relative;
+    top: -45px;
+    right: 10px;
+    font-size: 20px;
+}
+.anuel{
+    position: relative;
+    top: 10px;
+    right: -17px;
+    font-size: 20px;
+    font-family: arial black;
+}
+.price{
+    color: grey;
+}
+.pay{
+    color: white;
+    background-color:#0d0cb5;
+    margin: 0 40px 20px 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: clarendon ;
+}
+.cancel{
+    background-color: transparent;
+    color: grey;
+    font-family: ;
+    margin: 0 40px 20px 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: clarendon ;
+}
